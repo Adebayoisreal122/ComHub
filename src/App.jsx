@@ -7,6 +7,8 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import Service from './components/Service';
 import About from './components/About';
+import Signin from './components/Signin';
+import Signup from './components/Signup';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,9 +22,10 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/Ourservice" element={<Service/>} />
       <Route path="/aboutus" element={<About/>} />
-
-
       </Route>
+      <Route path="/signin" element={<Signin/>} />
+      <Route path="/signup" element={<Signup/>} />
+
     </Routes>
     </>
     </>

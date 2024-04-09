@@ -18,9 +18,9 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className="navbar px-5 navbar-expand-lg bg-body-tertiary" style={{boxShadow: '0px 2px 24px rgba(01, 100, 350, 0.5)'}}>
+    <nav className="navbar px-4 navbar-expand-lg " style={{boxShadow: '10px 2px 24px rgba(100, 300, 900, 0.9)'}}>
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"></a>
+    <img src="/public/extreme.png" alt="" className="navbar-brand" style={{height:64, width:64}} />
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
