@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  
+  
+}
+.Home{
+  background-image:   url('/public/backing.jfif'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  padding-top: 10vh;
+  position: relative;
+}
+
+.service{
+  background-image:   url('/public/service.jfif'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10vh;
+  position: relative;
+}
+
+.about{
+  background-image:   url('/public/service.jfif'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10vh;
+  position: relative;
+}
+
+.our {
+  font-size: large;
+  font-weight: 600;
+}
+.welcome{
+ font-weight: 700;
+ font-style: oblique;
+}
+.expe{
+  font-size: larger;
+  font-weight: 400;
+}
