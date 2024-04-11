@@ -9,6 +9,7 @@ import Service from './components/Service';
 import About from './components/About';
 import Signin from './components/Signin';
 import Signup from './components/Signup';
+import Loader from './components/Loader';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout/>}>
       <Route path="/" element={<Home/>} />
+      <Route path="/" element={<Loader/>} />
+
       <Route path="/Ourservice" element={<Service/>} />
       <Route path="/aboutus" element={<About/>} />
       </Route>

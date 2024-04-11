@@ -3,8 +3,11 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <div className='about'>
-        <div className='container   w-85  p-5'>
+      <div className=' row about'>
+      <div className='col container justify-content-center w-85 p-5 d-flex'>
+          <img src="/public/ceo.jfif" alt="" />
+      </div>
+        <div className='container col text-light  w-85  p-5'>
             <center><h1>About Us</h1></center>
 
             <p>Welcome to ComHub, your trusted partner in all things technology. Founded with a passion for innovation and a commitment to excellence, we strive to provide unparalleled service and support to our valued customers.</p>

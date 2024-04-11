@@ -4,10 +4,10 @@ const Service = () => {
   return (
     <>
     <div className=' row service'>
-      <div className='col contaner justify-content-center w-85  d-flex'>
+      <div className='col container justify-content-center w-85 p-5 d-flex'>
           <img src="/public/ceo.jfif" alt="" />
       </div>
-    <div className='container col text-light   p-5'>
+    <div className='container col text-light w-85  p-5'>
     <h1>Our Services</h1>
     <h2>At ComHub, we are your one-stop destination for all your computer and gadget needs. From sales of top-quality devices to expert repair services, our team is dedicated to providing comprehensive solutions to keep you connected and productive. Explore our wide range of services below:</h2>
      <h3>1. Sales of Computers and Gadgets:</h3>
