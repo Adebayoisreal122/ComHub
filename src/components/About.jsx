@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className='about'>
-        <div className='container text-light  w-85  p-5'>
+        <div className='container   w-85  p-5'>
             <center><h1>About Us</h1></center>
 
             <p>Welcome to ComHub, your trusted partner in all things technology. Founded with a passion for innovation and a commitment to excellence, we strive to provide unparalleled service and support to our valued customers.</p>
