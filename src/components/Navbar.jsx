@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
     <nav className="navbar px-4 navbar-expand-lg " style={{boxShadow: '1px 2px 20px rgba(10, 0, 10, 0.1)'}}>
   <div className="container-fluid">
-    <img src="/public/extreme.png" alt="" className="navbar-brand" style={{height:64, width:64}} />
+    <img src="/extreme.png" alt="" className="navbar-brand" style={{height:64, width:64}} />
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
